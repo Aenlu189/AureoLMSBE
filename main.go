@@ -38,7 +38,7 @@ func saveBooksToFile() {
 }
 
 func getBooks(c *gin.Context) {
-	title := c.Query("titie")
+	title := c.Query("title")
 	author := c.Query("author")
 
 	filteredBooks := books
